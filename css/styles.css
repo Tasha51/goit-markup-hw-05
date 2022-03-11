@@ -104,6 +104,8 @@ ul {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  transition: color var(--animation-duration) var(--animation-timing-function);
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -322,7 +324,7 @@ ul {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
